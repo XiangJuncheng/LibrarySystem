@@ -8,7 +8,7 @@
     @foreach (var p in Model)
     {
         <div class="item" style="border-bottom:1px dashed silver;">
-            <h3></h3>
+            <h3>@p.Title</h3>
             <p>价格：@p.Price.ToString("c") </p>
         </div>
     }
